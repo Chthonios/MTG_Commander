@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- the theme applied to the application or activity -->
+
+	<!-- ActionBar Theme -->
+	<style name="CustomActionBarTheme"
+	       parent="android:Theme.Holo">
+		<item name="android:actionBarStyle">@style/CommanderActionBar</item>
+		<item name="android:actionBarTabTextStyle">@style/CommanderActionBarTabText</item>
+	</style>
+
+	<style name = "CommanderActionMenu" parent="android:Theme.Holo">
+		<item name="android:textColor">@color/action_bar_text_color</item>
+	</style>
+
+	<!-- ActionBar styles -->
+	<style name="CommanderActionBar"
+	       parent="android:Widget.Holo.ActionBar">
+		<item name="android:titleTextStyle">@style/CommanderActionBarTitleText</item>
+	</style>
+	<!-- ActionBar title text -->
+	<style name="CommanderActionBarTitleText"
+	       parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+		<item name="android:textColor">@color/action_bar_text_color</item>
+	</style>
+	<!-- ActionBar tabs text styles -->
+	<style name="CommanderActionBarTabText"
+	       parent="android:Widget.Holo.ActionBar.TabText">
+		<item name="android:textColor">@color/action_bar_text_color</item>
+	</style>
+
+	<!-- Dialog styles -->
+	<style name = "DialogStyle" parent="android:Theme.Holo.Dialog.NoActionBar">
+		<item name = "android:textColor">@color/milieu</item>
+		<item name = "android:dialogIcon">@mipmap/icon_commander_launcher</item>
+		<item name = "android:textStyle">bold</item>
+	</style>
+
+	<style name = "ImageButtonCard" parent="android:Widget.ImageButton">
+		<item name = "android:radius">5dp</item>
+		<item name = "android:innerRadius">5dp</item>
+	</style>
+
+
+	<!-- Alert dialog styles -->
+	<style name = "AlertDialogStyle" parent="android:Holo.ButtonBar.AlertDialog">
+		<item name = "android:textColor">@color/tres_pale</item>
+		<item name = "android:textSize">@dimen/taille_texte_boutons</item>
+		<item name = "android:textStyle">bold</item>
+		<item name = "android:buttonBarButtonStyle">@style/AlertDialogStyle.ButtonBar</item>
+		<item name = "android:windowIsFloating">true</item>
+		<item name = "android:windowBackground">@color/transparent</item>
+	</style>
+	<style name = "AlertDialogStyle.ButtonBar" parent="android:Holo.ButtonBar">
+		<item name = "android:textColor">@color/tres_pale</item>
+	</style>
+</resources>

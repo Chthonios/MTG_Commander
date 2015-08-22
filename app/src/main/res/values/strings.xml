@@ -1,6 +1,28 @@
 <resources>
 	<string name="app_name">MTG_Commander</string>
 
-	<string name="hello_world">Hello world!</string>
-	<string name="action_settings">Settings</string>
+	<string name="action_settings">Paramètres</string>
+	<string name = "action_initialize">Initialiser</string>
+	<!-- menu et dialog quitter -->
+	<string name="action_quitter">Quitter</string>
+	<string name="dialog_quitter_titre">Quitter</string>
+	<string name="dialog_quitter_question">Voulez-vous quitter?</string>
+	<string name="dialog_quitter_reponse_oui">Oui</string>
+	<string name="dialog_quitter_reponse_non">Non</string>
+	<!-- fin dialog -->
+
+	<string name="title_activity_main">MainActivity</string>
+	<string name="title_section1">Section 1</string>
+	<string name="title_section2">Section 2</string>
+	<string name="title_section3">Section 3</string>
+
+	<!-- Textviews -->
+	<string name = "text_view_cast">In : </string>
+	<string name = "text_view_death">Out : </string>
+	<string name = "text_view_life" >Life : 40</string >
+	<string name = "text_view_poison" >Poison : 00</string >
+
+	<!-- buttons -->
+	<string name = "button_plus">+</string>
+	<string name = "button_minus">-</string>
 </resources>

@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Created by Dev-Lautréamont on 2015-08-22.
+ * Created by Dev-Lautramont on 2015-08-22.
  */
 public class Player implements Parcelable{
 

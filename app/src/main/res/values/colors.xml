@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Couleurs de élémements de l'application -->
+
+	<!-- imageButton -->
+	<color name="imageButtonPress">@color/fonce</color>
+	<color name = "imageButtonDefault">@color/tres_fonce</color>
+
+	<!-- text colors -->
+	<color name = "action_bar_text_color">@color/tres_pale</color>
+
+	<!--Palette de couleurs -->
+	<color name="black">#FF000000</color>
+	<color name = "tres_fonce">#900C00</color>
+	<color name = "fonce">#CA2C23</color>
+	<color name = "milieu">#D8B667</color>
+	<color name = "pale">#FFCD76</color>
+	<color name = "tres_pale">#FFDB74</color>
+	<color name="white">#FFFFFFFF</color>
+	<color name="transparent">#00000000</color>
+</resources>

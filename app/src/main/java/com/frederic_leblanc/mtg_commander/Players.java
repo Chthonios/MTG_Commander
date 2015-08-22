@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 
 /**
- * Created by Dev-Lautréamont on 2015-08-22.
+ * Created by Dev-Lautramont on 2015-08-22.
  */
 public class Players {
 
